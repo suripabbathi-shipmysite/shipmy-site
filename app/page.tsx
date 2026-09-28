@@ -1,1 +1,4 @@
-export default function Home(){return(<div style={{background:"black",color:"white",minHeight:"100vh",padding:"40px"}}><h1 style={{fontSize:"48px",fontWeight:"bold"}}>⚡ Shipmy.site LIVE</h1><p style={{marginTop:"20px"}}>Vercel Clone Ready - Unlimited Pages</p><p>Razorpay: 99/299/599 Done</p><button style={{background:"#22d3ee",color:"black",padding:"12px 24px",borderRadius:"20px",marginTop:"20px",fontWeight:"bold"}} onClick={()=>alert("Deploying unlimited pages!")}>+ New Project</button></div>)}
+"use client";
+export default function Page(){
+  return <div style={{padding:50,textAlign:'center'}}><h1>ShipMy is LIVE! 🚀</h1><p>Your site works!</p><button onClick={()=>alert('Working!')} style={{padding:'10px 20px'}}>Click Me</button></div>
+}
